@@ -1,0 +1,12 @@
+.navbar{
+height:100px;
+}
+.navbar{
+    background-color: #8fa03a;
+}
+.navbar-brand, .nav-link,.dropdown-item{
+        color:#f7f8f3;
+}
+.navbar-brand{
+            font-size: 30px;
+}

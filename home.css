@@ -1,12 +1,106 @@
-.navbar{
-height:100px;
+body{
+    background-color:#f7f7f7;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 .navbar{
     background-color: #8fa03a;
+     padding-top: 12px;
+    padding-bottom: 12px;
 }
+.nav-link {
+    font-size: 18px;
+}
+
 .navbar-brand, .nav-link,.dropdown-item{
         color:#f7f8f3;
 }
 .navbar-brand{
             font-size: 30px;
+            padding-left: 0px;
+}
+.badge {
+    font-size: 10px;
+    padding: 4px 6px;
+}
+.carousel-item img {
+  height: 500px; 
+  object-fit: cover;
+}
+
+.btn{
+    background-color: #8fa03a;
+    color:#f7f8f3;
+}
+.btn:hover{
+    background-color: #f7f8f3;
+    color:#8fa03a;
+    border-color: black;
+}
+.btn-outline-success{
+    background-color:#f7f8f3 ;
+    border-color: #8fa03a;
+    color:black
+}
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.ibm-plex-sans-uniquifier {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+@media (max-width: 767px) {
+  .col-md-6 h3 {
+    font-size: 1.5rem; 
+  }
+  .col-md-3 h3 {
+    font-size: 1.2rem;
+  }
+}
+.contact-section {
+      padding: 60px 0;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      box-shadow: 0 0 15px rgba(0,0,0,0.05);
+      border: none;
+      border-radius: 5px;
+      padding: 10px;
+      width: 100%;
+      margin-bottom: 15px;
+    }
+    .contact-form button {
+      background-color: #8fa03a;
+      color: #fff;
+      border-radius: 25px;
+      padding: 10px 30px;
+      border: none;
+    }
+    .contact-info h5 {
+      font-weight: bold;
+    }
+    .card h6 {
+  font-weight: 500;
+}
+
+.card p {
+  font-size: 14px;
+}
+h1, h2, h3 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 400;
+}
+
+.navbar-brand {
+  font-weight: 700;
 }
